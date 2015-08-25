@@ -4,17 +4,79 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>平舘のポートフォリオ</title>
+    <title>Hiradate's Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>ポートフォリオ</h1>
-    <p><a href="https://hiradate.github.io">https://hiradate.github.io</a></p>
-    <p><a href="https://github.com/hiradate/">https://github.com/hiradate/</a></p>
-    <h2>メッセージボード</h2>
-    <h2>Twitterクローン</h2>
-    <h2>モノリスト</h2>
-    <h2>髪型検索システム</h2>
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!--button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button-->
+          <a class="navbar-brand" href="https://hiradate.github.io">Hiradate's Portfolio</a>
+        </div>
+        <!--div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div--><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>About</h1>
+        <p>Railsアプリケーション作成を学ぶために作ったアプリケーションのご紹介です。このページは、<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>の<a href="" target="_blank">Basic template</a>の<a href="http://getbootstrap.com/getting-started/#examples" target="_blank">examples</a>にある<a href="http://getbootstrap.com/examples/jumbotron/" target="_blank">Starter template</a>を利用しました。</p>
+        <!--p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p-->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>メッセージボード</h2>
+          <img src="img/img_memo.jpg" alt="メッセージボード" class="img-thumbnail">
+          <p>Railsの機能を覚えるために作ったメッセージボードアプリケーションです。</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Twitterクローン</h2>
+          <img src="img/TwitterLogo.png" alt="Twitterクローン" class="img-thumbnail">
+          <p>メッセージボードを、より本格的なWebアプリケーションに！</p>
+          <p>以下の機能を実装しています。</p>
+          <ul>
+            <li>ユーザーが新規登録・ログインできるる</li>
+            <li>つぶやき（マイクロポスト）を投稿できる</li>
+            <li>他のユーザーをフォローして、タイムラインを表示できる</li>
+          </ul>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>モノリスト</h2>
+          <img src="img/img_cart.jpg" alt="モノリスト" class="img-thumbnail">
+          <p>Amazonの<a href="https://affiliate.amazon.co.jp/gp/advertising/api/detail/main.html" target="_blank">Product Advertising API</a>を用いてAmazonの商品を検索し、自分が持っているもの・欲しい物を共有するサービスを作っていきます。このサービスを仮想サイト「モノリスト」を作成しました。</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; HIRADATE</p>
+      </footer>
+    </div> <!-- /container -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
